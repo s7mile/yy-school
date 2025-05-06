@@ -1,0 +1,91 @@
+body{background-image:url("http://localhost/image/bg2.png"); margin:0px;}
+#bg{width:100%; background:url("http://localhost/image/bg.png") repeat-x;}
+A:link, A:visited, A:hover, A:active{border:0px; text-decoration:none; color:#716547; font-family:"¸¼Àº °íµñ", "µ¸¿ò"; font-size:13pt;}
+img{border:0px;}
+
+
+
+/* ÀÚÁÖ¾²´Â class */
+.ml30{margin-left:30px;}
+.ml20{margin-left:20px;}
+
+.mt8{margin-top:8px;}
+.mt10{margin-top:10px;}
+.mt12{margin-top:12px;}
+.mt15{margin-top:15px;}
+
+.tr{text-align:right;}
+.tc{text-align:center;}
+
+.w120{width:120px;}
+
+.h50{height:50px;}
+
+.fs9{font-size:9pt;}
+.fc{color:#9e8e67}
+
+.b0{border:0px;}
+.b1{border:1px solid #cdc5b2;}
+
+.bcw{background-color:#ffffff;}
+
+
+
+/* main and sub */
+#wrap{width:1000px; height:auto; margin:auto;}
+#global{width:1000px; height:30px; float:left; text-align:right; font-family:"¸¼Àº °íµñ", "µ¸¿ò"; font-size:10pt; color:#716547;}
+	#global a{font-size:8pt;}
+#top{width:1000px; height:60px; float:left;}
+	#top #logo{width:270px; height:60px; float:left;}
+	#top #menu{width:730px; height:60px; float:left;}
+#copyright{width:1000px; height:50px; float:left; background-image:url(../image/images/main_11.png)}
+	
+	
+	
+/* main */
+#flash{width:1000px; height:390px; float:left;}
+#latest{width:1000px; height:170px; float:left;}
+	#latest #banner{width:300px; height:170px; float:left;}
+	#latest #right{width:700px; height:170px; float:left;}
+		#latest #right #login{width:700px; height:30px; float:left; background-image:url("../image/images/main_06.png")}
+		#latest #right #b_g{width:700px; height:140px; float:left;}
+			#latest #right #b_g #notice{width:380px; height:140px; float:left;}
+				#latest #right #b_g #notice #n_subject{width:380px; height:40px; float:left; background-image:url("../image/images/main_07.png")}
+				#latest #right #b_g #notice #n_notice{width:380px; height:100px; float:left;}
+			#latest #right #b_g #gallery{width:320px; height:140px; float:left;}
+				#latest #right #b_g #gallery #g_subject{width:320px; height:40px; float:left; background-image:url("../image/images/main_08.png")}}
+				#latest #right #b_g #gallery #g_gallery{width:320px; height:100px; float:left;}
+
+
+/* sub */
+#s_flash{width:1000px; height:180px; float:left;}
+#s_history{width:1000px; height:20px; float:left; background-image:url(../image/images/sub_05.png)}
+#s_latest{width:1000px; height:auto; float:left; background:url("../image/images/s_c_bg.png") repeat-x;}
+	#s_latest #s_menu{width:270px; height:auto; float:left;}
+		#s_latest #s_menu #s_m_subject{width:270px; height:80px; float:left; text-align:center; font-family:"HY¸ñÆÇL"; color:#ffffff; font-size:20pt;}
+		#s_latest #s_menu #s_m_menu{width:270px; float:left; text-align:center; font-family:"¸¼Àº °íµñ", "µ¸¿ò"; font-size:13pt;}
+					#s_latest #s_menu #s_m_menu a{color:#9e8e67; font-size:12pt;}
+	#s_latest #s_content{width:730px; height:auto; float:left;}
+		#s_latest #s_content #s_c_subject{width:730px; height:37px; float:left; font-family:"¸¼Àº °íµñ", "µ¸¿ò"; font-size:24px; color:#514831;}
+		#s_latest #s_content #s_c_content{width:730px; height:auto; float:left; margin-top:20px;}
+			#s_latest #s_content #s_c_content #content{width:675px; margin-left:15px; height:auto; float:left; font-family:"¸¼Àº °íµñ", "µ¸¿ò"; font-size:10pt; color:#504e4a;}
+			
+
+/* Login */
+#login{width:650px; height:239px; float:left; margin-left:12px; background-image:url("http://localhost/image/login.png")}
+.logint{width:250px; float:left; margin-top:80px; margin-left:320px;}
+	.logint th{width:100px; text-align:right;}
+	.logint a{font-size:11pt;}
+.tinput{width:150px; border:1px solid #cdc5b2; height:18px;}
+
+
+/* Join */
+.join{width:600px; float:left; margin-left:40px; color:#9e8e67; font-size:9pt;}
+	.join th{width:100px; height:30px; text-align:right;}
+	.join input{height:18px;}
+	
+	
+/* gallery */
+#gal{width:650px; float:left; margin-left:35px;}
+.galt{width:600px; height:100px; float:left; margin-right:10px; color:#9e8e67; font-size:9pt; border-top:1px dotted #cdc5b2; border-bottom:1px dotted #cdc5b2;}
+	.galt td{border-top:1px dotted #cdc5b2;}

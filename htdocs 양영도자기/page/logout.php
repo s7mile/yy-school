@@ -1,0 +1,7 @@
+<?
+	include "../include/lib.php";
+	
+	session_destroy();
+	
+	alertmove("·Î±×¾Æ¿ô µÇ¼Ì½À´Ï´Ù", "http://localhost")
+?>
